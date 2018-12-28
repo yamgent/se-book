@@ -4,4 +4,3 @@ docsearch({
     inputSelector: '#mysearch', 
     debug: true // Set debug to true if you want to inspect the dropdown 
     }); 
-console.log("hi");

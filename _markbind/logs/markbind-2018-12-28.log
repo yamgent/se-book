@@ -1,2 +1,13 @@
 2018-12-28T03:06:37.620Z - info: Website generation started at 11:06:37
 2018-12-28T03:06:39.390Z - info: Building assets...
+2018-12-28T03:06:40.742Z - info: Assets built
+2018-12-28T03:06:40.742Z - info: Generating pages...
+2018-12-28T03:06:40.933Z - info: Pages built
+2018-12-28T03:06:40.949Z - info: Site data built
+2018-12-28T03:06:40.950Z - info: Website generation complete! Total build time: 3.332s
+2018-12-28T03:06:40.956Z - info: Generate Site durationMs=3339
+2018-12-28T03:06:41.176Z - info: Serving "D:\GitHub\yamgent\se-book\_site" at http://127.0.0.1:8080
+2018-12-28T03:06:41.178Z - info: Press CTRL+C to stop ...
+2018-12-28T03:12:57.352Z - info: Deployed!
+2018-12-28T03:29:19.240Z - info: Website generation started at 11:29:18
+2018-12-28T03:29:20.985Z - info: Building assets...
