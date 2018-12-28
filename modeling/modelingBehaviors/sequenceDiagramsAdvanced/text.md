@@ -1,22 +1,18 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can interpret advanced sequence diagrams</span>
 
 <div id="title">
 
-#### Sequence Diagrams - Advanced :three:
+#### Sequence Diagrams - Advanced
 
 </div>
 
 <div id="body">
 
-<dynamic-panel src="../../../uml/sequenceDiagrams/parallelPaths/embed.md" header="UML: Sequence Diagrams: Parallel Paths" is-open></dynamic-panel>
+<panel src="../../../uml/sequenceDiagrams/parallelPaths/embed.md" boilerplate  header="UML: Sequence Diagrams: Parallel Paths" is-open />
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

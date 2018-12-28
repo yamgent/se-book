@@ -1,15 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Test Case Design: More"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Test Case Design :arrow_right:**%%
-
-## More
-
-<div id="main">
-
-<include src="testingUseCases/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

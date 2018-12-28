@@ -1,40 +1,14 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Code Quality :arrow_right: Guideline: Maximise Readability :arrow_right:</div>
-
 <div id="title">
 
-#### Intermediate :two:
-
+### Intermediate
 </div>
 
 <div id="body">
 
-<panel header="**Structure Code Logically**"
-    type="seamless" alt="indentation">
-  <include src="../../practices/structureCodeLogically/index.md#main" />
-</panel>
-
-<panel header="**Do not 'Trip Up' the Reader**"
-    type="seamless" alt="indentation">
-  <include src="../../practices/dontTripReader/index.md#main" />
-</panel>
-
-<panel header="**Practice KISSing**"
-    type="seamless" alt="indentation">
-  <include src="../../practices/practiceKISSing/index.md#main" />
-</panel>
-
-<panel header="**SLAP Hard**"
-    type="seamless" alt="indentation">
-  <include src="../../practices/slapHard/index.md#main" />
-</panel>
-
-</div>
-
-<div id="extras">
-<div>
+<include src="structureCodeLogically/unit-inParent-asPanel.md" boilerplate />
+<include src="dontTripReader/unit-inParent-asPanel.md" boilerplate />
+<include src="practiceKISSing/unit-inParent-asPanel.md" boilerplate />
+<include src="avoidPrematureOptimizations/unit-inParent-asPanel.md" boilerplate />
+<include src="slapHard/unit-inParent-asPanel.md" boilerplate />
 
 </div>

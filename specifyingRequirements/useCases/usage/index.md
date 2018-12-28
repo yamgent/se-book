@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Specifying Requirements: Use Cases: Putting Use Cases into Good Use"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-<include src="full.md" />
-
-</div>
-
-</div>
+<include src="unit-inPage-asFlat.md" boilerplate />

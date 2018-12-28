@@ -1,18 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Code Quality: [Guideline] Maximise Readability"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Code Quality :arrow_right:**%%
-
-## Guideline: Maximise Readability
-
-<div id="main">
-
-<include src="introduction/embed.md" />
-<include src="basic/embed.md" />
-<include src="intermediate/embed.md" />
-<include src="advanced/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

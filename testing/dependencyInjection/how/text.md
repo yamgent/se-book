@@ -1,36 +1,26 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Testing :arrow_right: Dependency Injection :arrow_right:</div>
-
 <div id="title">
 
-#### How :three:
+#### How
 
 </div>
 
+<span id="prereqs"><panel src="../what/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} Quality Assurance → Testing → Dependency Injection → What%%" /></span>
+
+<span id="outcomes">{{ icon_outcome }} Can use dependency injection</span>
+
 <div id="body">
 
-Given next is a sample testing scenario that tests the `totalSalary` of the `Payroll` class. The production version of the `totalSalary` method collaborates with the `SalaryManager` object to calculate the return value. During testing, the `SalaryManager` object is substituted with a `SalaryManagerStub` object which responds with hard-coded return values.
+**Polymorphism can be used to implement dependency injection**, as can be seen in the example given in <trigger trigger="click" for="modal:useDi-stub">[Quality Assurance → Testing → Unit Testing → Stubs]</trigger> where a stub is injected to replace a dependency.
 
-```java
-public class PayrollTestDriver {
-    public static void main(String[] args) {
-        //test setup
-        Payroll p = new Payroll();
-        p.setSalaryManager(new SalaryManagerStub()); //dependency injection
-        //test case 1
-        p.setEmployees(new String[]{"E001", "E002"});
-        assertEquals(2500.0, p.totalSalary());
-        //test case 2
-        p.setEmployees(new String[]{"E001"});
-        assertEquals(1000.0, p.totalSalary());
-        //more tests
-        System.out.println("Testing completed");
-    }
-}
-```
+<modal large title="" id="modal:useDi-stub">
+  <include src="../../testingTypes/unitTesting/stubs/unit-inElsewhere-asFlat.md" boilerplate/>
+</modal>
+
+<tip-box> 
+
+{{ icon_example }} Here is another example of using polymorphism to implement dependency injection:
+
+Suppose we want to unit test the `Payroll#totalSalary()` given below. The method depends on the `SalaryManager` object to calculate the return value. Note how the `setSalaryManager(SalaryManager)` can be used to inject a `SalaryManager` object to replace the current `SalaryManager` object.
 
 ```java
 class Payroll {
@@ -41,8 +31,6 @@ class Payroll {
         this.employees = employees;
     }
 
-    /*the operation below is used to substitute the actual SalaryManager
-    with a stub used for testing */
     void setSalaryManager(SalaryManager sm) {
        this. manager = sm;
     }
@@ -55,9 +43,8 @@ class Payroll {
         return total;
     }
 }
-```
 
-```java
+
 class SalaryManager {
     double getSalaryForEmployee(String empID){
         //code to access employee’s salary history
@@ -66,9 +53,27 @@ class SalaryManager {
 }
 ```
 
+During testing, you can inject a `SalaryManagerStub` object to replace the `SalaryManager` object.
+
 ```java
+class PayrollTest {
+    public static void main(String[] args) {
+        //test setup
+        Payroll p = new Payroll();
+        p.setSalaryManager(new SalaryManagerStub()); //dependency injection
+        //test case 1
+        p.setEmployees(new String[]{"E001", "E002"});
+        assertEquals(2500.0, p.totalSalary());
+        //test case 2
+        p.setEmployees(new String[]{"E001"});
+        assertEquals(1000.0, p.totalSalary());
+        //more tests ...
+    }
+}
+
+
 class SalaryManagerStub extends SalaryManager {
-    /* this method returns hard coded values used for testing */
+    /** Returns hard coded values used for testing */
     double getSalaryForEmployee(String empID) {
         if(empID.equals("E001")) {
             return 1000.0;
@@ -80,10 +85,12 @@ class SalaryManagerStub extends SalaryManager {
     }
 }
 ```
+</tip-box>
 
 </div>
 
 <div id="extras">
-<div>
+
+<include src="exercises.md" />
 
 </div>

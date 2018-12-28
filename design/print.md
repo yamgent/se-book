@@ -1,3 +1,10 @@
+<frontmatter>
+title: "Software Design [Printable]"
+footer: footer.md
+</frontmatter>
+
+<include src="navbar.md" boilerplate />
+
 <link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
 
 <div class="website-content">
@@ -8,8 +15,9 @@
 
 ## Introduction
 
-<include src="introduction/basic/print.md" />
-<include src="introduction/multilevelDesign/print.md" />
+<include src="../design/introduction/what/unit-inParent-asFlat-print.md" boilerplate />
+
+
 
 </div>
 

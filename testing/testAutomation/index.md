@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Testing: Test Automation"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Testing :arrow_right:**%%
-
-## Test Automation
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="testingTextUis/embed.md" />
-<include src="usingTestDrivers/embed.md" />
-<include src="tools/embed.md" />
-<include src="testingGuis/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

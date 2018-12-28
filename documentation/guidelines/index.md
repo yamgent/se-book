@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Documentation: Guidelines"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Documentation :arrow_right:**%%
-
-## Guidelines
-
-<div id="main">
-
-Given below are some guidelines to write developer documentation, particularly applicable to documents targeted at developer-as-maintainer.
-
-<include src="./goTopDown/topicPanel.md" />
-<include src="./aimforComprehensibility/topicPanel.md" />
-<include src="./documentMinimally/topicPanel.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

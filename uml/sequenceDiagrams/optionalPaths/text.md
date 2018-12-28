@@ -1,18 +1,16 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Sequence Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### Optional Paths :two:
+#### Optional Paths
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret sequence diagrams with optional paths</span>
+
 <div id="body">
 
-We use `opt` frames to indicate optional paths.
+**UML uses `opt` frames to indicate optional paths.**
 
 Notation:
 
@@ -21,7 +19,7 @@ Notation:
 
 <tip-box>
 
-Example:
+{{ icon_example }} `Logic#markCellAt(...)` calls `Timer#start()` only if it is the first move of the player. 
 
 <img src="{{baseUrl}}/uml/sequenceDiagrams/optionalPaths/images/logicTimer.png" height="150" />
 <p/>
@@ -31,6 +29,4 @@ Example:
 </div>
 
 <div id="extras">
-<div>
-
 </div>

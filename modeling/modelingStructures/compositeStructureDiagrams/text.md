@@ -1,27 +1,28 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Structures :arrow_right:</div>
-
 <div id="title">
 
-#### Composite Structure Diagrams :four:
+#### Composite Structure Diagrams
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain composite structure diagrams</span>
 
 <div id="body">
 
-A **composite structure diagram** hierarchically decomposes a class into its internal structure.
+**A _composite structure diagram_ hierarchically decomposes a class into its internal structure.**
+
+<tip-box> 
+
+{{ icon_example }} Here is an example composite structure diagram:
 
 <img src="{{baseUrl}}/modeling/modelingStructures/compositeStructureDiagrams/images/diagram.png" height="150" />
-<p/>
+<br>
 
-Source: https://en.wikipedia.org/wiki/Composite_structure_diagram
+<sub>source:[https://commons.wikimedia.org](https://en.wikipedia.org/wiki/Composite_structure_diagram)</sub>
 
+</tip-box>
 </div>
 
 <div id="extras">
-<div>
-
 </div>

@@ -1,22 +1,18 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Gathering Requirements :arrow_right: </div>
-
 <div id="title">
 
-#### User Surveys :one:
+#### User Surveys
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain user surveys</span>
+
 <div id="body">
 
-Carefully designed **questionnaires** can be used to _solicit responses and opinions_ from a large number of users regarding any current system or a new innovation.
+**Surveys can be used to _solicit responses and opinions_ from a large number of stakeholders** regarding a current product or a new product.
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

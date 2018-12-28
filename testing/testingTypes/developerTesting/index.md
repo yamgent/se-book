@@ -1,15 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Testing: Testing Types: Developer Testing"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Testing :arrow_right: Testing Types :arrow_right:**%%
-
-### Developer Testing
-
-<div id="main">
-
-<include src="./what/embed.md" />
-<include src="./why/embed.md" />
-
-</div>
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

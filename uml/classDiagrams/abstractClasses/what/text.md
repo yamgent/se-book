@@ -1,14 +1,16 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret abstract classes in class diagrams</span>
 
 <div id="title">
 
-#### What :two:
+#### What
 
 </div>
 
 <div id="body">
 
-We can use _italics_ or `{abstract}` keyword to denote abstract classes/methods.
+**You can use _italics_ or `{abstract}` (preferred) keyword to denote abstract classes/methods.**
 
 <img src="{{baseUrl}}/uml/classDiagrams/abstractClasses/what/images/notation.png" height="110" />
 <p/>
@@ -25,6 +27,4 @@ Example:
 </div>
 
 <div id="extras">
-</div>
-
 </div>

@@ -1,14 +1,12 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Requirements :arrow_right: </div>
-
 <div id="title">
 
-#### Quality of Requirements :one:
+#### Quality of Requirements
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain quality of requirements</span>
 
 <div id="body">
 
@@ -21,9 +19,9 @@ Here are some characteristics of well-defined requirements <trigger for="pop:zie
 * Understandable
 * Feasible (realistic, possible)
 * Independent
-* Atomic
+* <tooltip content="Not divisible any further">Atomic</tooltip>
 * Necessary
-* Implementation-free (abstract)
+* Implementation-free (i.e. abstract)
 
 Besides these criteria for individual requirements, the set of requirements as a whole should be
 
@@ -40,6 +38,4 @@ Besides these criteria for individual requirements, the set of requirements as a
 </div>
 
 <div id="extras">
-<div>
-
 </div>

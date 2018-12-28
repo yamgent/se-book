@@ -1,18 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Specifying Requirements: Use Cases"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Specifying Requirements :arrow_right:**%%
-
-## Use Cases
-
-<div id="main">
-
-<include src="introduction/embed.md" />
-<include src="identifying/embed.md" />
-<include src="details/embed.md" />
-<include src="usage/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

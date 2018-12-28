@@ -1,18 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Project Planning"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-# Project Planning
-
-<div id="main">
-
-<include src="workBreakdownStructure/embed.md" />
-<include src="milestones/embed.md" />
-<include src="buffers/embed.md" />
-<include src="issueTrackers/embed.md" />
-<include src="ganttCharts/embed.md" />
-<include src="pertCharts/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

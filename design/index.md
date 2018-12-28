@@ -1,13 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Software Design"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-# Software Design
-
-## Introduction
-<panel header="================================================================"
-    type="seamless" alt="introduction">
-  <include src="introduction/index.md#main" />
-</panel>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

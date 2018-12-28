@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Test Case Design: Combining Test Inputs: Heuristic: Each valid input at least once in a positive test case"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-<include src="full.md" />
-
-</div>
-
-</div>
+<include src="unit-inPage-asFlat.md" boilerplate />

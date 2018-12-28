@@ -1,6 +1,6 @@
-* __ [Interfaces](./uml/classDiagrams/interfaces) :one: <trigger for="pop:classDiagrams-interfaces-preview">:mag:</trigger>
+* __ [Interfaces]({{baseUrl}}/uml/classDiagrams/interfaces) <trigger for="pop:classDiagrams-interfaces-preview">{{icon_preview}}</trigger>
 
-<popover id="pop:classDiagrams-interfaces-preview" title=":mag: Interfaces" placement="right">
+<popover id="pop:classDiagrams-interfaces-preview" title="{{icon_preview}} Interfaces" placement="right">
   <div slot="content">
     <include src=".\preview.md" />
   </div>

@@ -1,4 +1,4 @@
-<panel header="Q: Use case diagram for QA system :two:">
+<panel header="Q: Use case diagram for QA system">
 <question has-input="false">
 
 A software house wishes to automate its Quality Assurance division.
@@ -9,7 +9,7 @@ The system is to be used by Testers, Programmers and System Administrators. Only
 
 <div slot="answer">
 
-<img src="{{baseUrl}}/specifyingRequirements/useCases/identifying/images/qaSystem.jpg" height="250" />
+<img src="{{baseUrl}}/specifyingRequirements/useCases/identifying/images/qaSystem.jpg" width="400" />
 
 <p/>
 

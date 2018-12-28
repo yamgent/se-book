@@ -1,4 +1,4 @@
-<panel header="Q: Do the Brook’s Law apply to a school project? Justify.">
+<panel header="{{ icon_Q_A }} Brook’s Law vs school project">
 <question has-input="true">
 
 Do the Brook’s Law apply to a school project? Justify.

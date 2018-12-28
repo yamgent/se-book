@@ -1,18 +1,16 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Sequence Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### Self Invocation :two:
+#### Self Invocation
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret sequence diagrams with self invocation</span>
+
 <div id="body">
 
-This is how we show a method of an object calling another method of the same object.
+**UML can show a method of an object calling another of its own methods.**
 
 Notation:
 
@@ -21,12 +19,14 @@ Notation:
 
 <tip-box>
 
-Example:
+{{ icon_example }} The `markCellAt(...)` method of a `Logic` object is calling its own `updateState(...)` method.
 
 <img src="{{baseUrl}}/uml/sequenceDiagrams/selfInvocation/images/logic.png" height="100" />
 <p/>
 
-<img src="{{baseUrl}}/uml/sequenceDiagrams/selfInvocation/images/object.png" height="150" />
+{{ icon_example }} In this variation, the `Book#write()` method is calling the `Chapter#getText()` method which in turn does a _call back_ by calling the `getAuthor()` method of the calling object.
+
+<img src="{{baseUrl}}/uml/sequenceDiagrams/selfInvocation/images/callBack.png" height="150" />
 <p/>
 
 </tip-box>
@@ -34,6 +34,4 @@ Example:
 </div>
 
 <div id="extras">
-<div>
-
 </div>

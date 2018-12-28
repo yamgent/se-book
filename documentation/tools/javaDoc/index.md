@@ -1,15 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Documentation: Tools: JavaDoc"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Documentation :arrow_right: Tools :arrow_right:**%%
-
-### JavaDoc
-
-<div id="main">
-
-<include src="./what/embed.md" />
-<include src="./how/embed.md" />
-
-</div>
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

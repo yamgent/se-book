@@ -1,12 +1,10 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Testing :arrow_right: TDD :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can follow TDD</span>
 
 <div id="title">
 
-#### How :three:
+#### How
 
 </div>
 
@@ -26,6 +24,4 @@ Note that TDD does not imply writing all the test cases first before writing fun
 </div>
 
 <div id="extras">
-<div>
-
 </div>

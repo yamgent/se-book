@@ -1,1 +1,1 @@
-Requirements :arrow_right: Specifying Requirements :arrow_right:
+Requirements → Specifying Requirements →

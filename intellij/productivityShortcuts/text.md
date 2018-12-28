@@ -1,22 +1,25 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Intellij IDEA :arrow_right: </div>
+<span id="outcomes">{{ icon_outcome }} Can use some useful IDE productivity shortcuts</span>
 
 <div id="title">
 
-#### Productivity Shortcuts :three:
+#### Productivity Shortcuts
 
 </div>
 
 <div id="body">
 
-...
+<div v-closeable alt="video: Intellij shortcuts">
+
+@[youtube](KsVWdGOnHZU)
+
+@[youtube](EvXpgL2iho4)
+
+
+</div>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

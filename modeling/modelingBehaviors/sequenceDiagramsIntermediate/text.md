@@ -1,26 +1,24 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
-
 <div id="title">
 
-#### Sequence Diagrams - Intermediate :two:
+#### Sequence Diagrams - Intermediate
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can draw intermediate-level sequence diagrams</span>
+
 <div id="body">
 
-<dynamic-panel src="../../../uml/sequenceDiagrams/referenceFrames/embed.md" header="UML: Sequence Diagrams: Reference Frames" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/objectDeletion/embed.md" header="UML: Sequence Diagrams: Object Deletion" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/selfInvocation/embed.md" header="UML: Sequence Diagrams: Self-Invocation" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/alternativePaths/embed.md" header="UML: Sequence Diagrams: Alternative Paths" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/optionalPaths/embed.md" header="UML: Sequence Diagrams: Optional Paths" is-open></dynamic-panel>
+<panel type="seamless" src="../../../uml/sequenceDiagrams/objectDeletion/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Object Deletion" alt="{{ icon_prereq }} UML/SD/Deletion" />
+<panel type="seamless" src="../../../uml/sequenceDiagrams/selfInvocation/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Self-Invocation" alt="{{ icon_prereq }} UML/SD/Self-Invocation" />
+<panel type="seamless" src="../../../uml/sequenceDiagrams/alternativePaths/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Alternative Paths" alt="{{ icon_prereq }} UML/SD/Alternative" />
+<panel type="seamless" src="../../../uml/sequenceDiagrams/optionalPaths/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Optional Paths" alt="{{ icon_prereq }} UML/SD/Optional" />
 
 </div>
 
 <div id="extras">
-<div>
+
+<include src="exercisesPanel.md" boilerplate />
 
 </div>

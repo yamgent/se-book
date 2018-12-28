@@ -1,31 +1,28 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Code Quality :arrow_right: Guideline: Follow a Standard :arrow_right:</div>
-
 <div id="title">
 
-#### Basic :one:
+#### Basic
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can follow simple mechanical style rules</span>
 
 <div id="body">
 
-{Some simple style rules for Java}
+<div class="alt-java">
 
-<panel header="Basic Indentation"
-    type="seamless" alt="indentation">
-  <include src="../../../java/style/rule-basicIndentation/index.md#main" />
-</panel>
-<panel header="Line Length"
-    type="seamless" alt="line length">
-  <include src="../../../java/style/rule-lineLength/index.md#main" />
-</panel>
+Learn _basic_ guidelines of the [**Java** coding standard (by OSS-Generic)]({{java_coding_standard}})
+</div>
+<div class="alt-python">
+
+Sample coding standard: [PEP 8 **Python** Style Guide -- by Python.org](https://www.python.org/dev/peps/pep-0008/)
+</div>
 
 </div>
 
+<div class="alt-java">
 <div id="extras">
-<div>
-
+  <include src="exercisesPanel.md" boilerplate />
+</div>
 </div>

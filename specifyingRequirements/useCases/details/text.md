@@ -1,14 +1,13 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Specifying Requirements :arrow_right: Use Cases :arrow_right:</div>
-
 <div id="title">
 
-#### Details :two:
+#### Details
 
 </div>
+
+<span id="prereqs"><panel src="../introduction/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} Requirements → Specifying Requirements → Use Cases → Introduction%%" />
+<panel src="../identifying/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} Requirements → Specifying Requirements → Use Cases → Identifying%%" /></span>
+
+<span id="outcomes">{{ icon_outcome }} Can specify details of a use case in a structured format</span>
 
 <div id="body">
 
@@ -16,23 +15,13 @@
 
 <include src="useCaseSteps.md" />
 
-**Main success scenario**
-
 <include src="mainSuccessScenario.md" />
-
-**Extensions**
 
 <include src="extensions.md" />
 
-**Inclusions**
-
 <include src="inclusions.md" />
 
-**Use case preconditions**
-
 <include src="preconditions.md" />
-
-**Use case guarantees**
 
 <include src="guarantees.md" />
 
@@ -41,7 +30,5 @@
 <div id="extras">
 
 <include src="exercises.md" />
-
-</div>
 
 </div>

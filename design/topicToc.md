@@ -1,7 +1,7 @@
-* [Design](./design/)
-  <trigger for="pop:design-preview">:mag:</trigger>[:scroll:](design/print.html)
+* [Design]({{baseUrl}}/design/)
+  <trigger for="pop:design-preview">{{icon_preview}}</trigger> [{{icon_print}}](design/print.html)
 
-<popover id="pop:design-preview" title="Software Design :mag:" placement="right">
+<popover id="pop:design-preview" title="Software Design {{icon_preview}}" placement="right">
   <div slot="content">
     <include src="preview.md" />
   </div>

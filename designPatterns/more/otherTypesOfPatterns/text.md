@@ -1,18 +1,16 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Software Design Patterns :arrow_right: More :arrow_right:</div>
-
 <div id="title">
 
-#### Other Types of Patterns :three:
+#### Other Types of Patterns
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain how patterns exist beyond software design domain</span>
+
 <div id="body">
 
-The notion of capturing design ideas as "patterns" is usually attributed to Christopher Alexander. He is a building architect noted for his theories about design. His book _Timeless way of building_ talks about “design patterns” for constructing buildings.
+The notion of capturing design ideas as "patterns" is usually attributed to [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander). He is a building architect noted for his theories about design. His book _Timeless way of building_ talks about "design patterns" for constructing buildings.
 
 Here is a sample pattern from that book:
 
@@ -32,7 +30,5 @@ New patterns can be created too. If a common problem needs to be solved frequent
 <div id="extras">
 
 <include src="exercises.md" />
-
-</div>
 
 </div>

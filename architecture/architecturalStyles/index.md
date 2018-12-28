@@ -1,21 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Software Architecture: Architectural Styles"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Software Architecture :arrow_right:**%%
-
-## Architectural Styles
-
-<div id="main">
-
-<include src="./introduction/topicPanel.md" />
-<include src="./nTier/topicPanel.md" />
-<include src="./clientServer/topicPanel.md" />
-<include src="./transactionProcessing/topicPanel.md" />
-<include src="./serviceOriented/topicPanel.md" />
-<include src="./eventDriven/topicPanel.md" />
-<include src="./more/topicPanel.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

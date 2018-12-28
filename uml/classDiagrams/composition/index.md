@@ -1,14 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "UML: Class Diagrams: Composition"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**UML :arrow_right: Class Diagrams :arrow_right:**%%
-
-### Composition
-
-<div id="main">
-
-<include src="./what/embed.md" />
-
-</div>
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

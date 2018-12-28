@@ -1,32 +1,29 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
-
 <div id="title">
 
-#### Timing Diagrams :four:
+#### Timing Diagrams
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain timing diagrams</span>
+
 <div id="body">
 
-**Timing diagrams** focus on timing constraints.
+**A _timing diagram_ focus on timing constraints.**
+
+<tip-box> 
+
+{{ icon_example }} Here is an example timing diagram:
 
 <img src="{{baseUrl}}/modeling/modelingBehaviors/timingDiagrams/images/diagram.png" height="280" />
-<p/>
+<br>
 
-Adapted from:
-<popover id="pop:uml-distilled">
-  <div slot="content">
-    <include src="../../../common/references.md#uml-distilled" />
-  </div>
-</popover>
+<sub>Adapted from: _UML Distilled_ by Martin Fowler</sub>
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

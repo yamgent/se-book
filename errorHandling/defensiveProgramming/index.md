@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Error Handling: Defensive Programming"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Error Handling :arrow_right:**%%
-
-## Defensive Programming
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="compulsoryAssociations/embed.md" />
-<include src="1to1Associations/embed.md" />
-<include src="referentialIntegrity/embed.md" />
-<include src="when/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

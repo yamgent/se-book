@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Test Case Design: Combining Test Inputs"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Test Case Design :arrow_right:**%%
-
-## Combining Test Inputs
-
-<div id="main">
-
-<include src="why/embed.md" />
-<include src="combinationStrategies/embed.md" />
-<include src="heuristicValid/embed.md" />
-<include src="heuristicInvalid/embed.md" />
-<include src="mix/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

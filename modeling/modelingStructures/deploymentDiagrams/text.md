@@ -1,27 +1,29 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Structures :arrow_right:</div>
-
 <div id="title">
 
-#### Deployment Diagrams :four:
+#### Deployment Diagrams
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain deployment diagrams</span>
+
 <div id="body">
 
-**Deployment diagrams** show a system's physical layout, revealing which pieces of software run on which pieces of hardware.
+**A _deployment diagram_ shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.**
+
+<tip-box> 
+
+{{ icon_example }} An example deployment diagram:
 
 <img src="{{baseUrl}}/modeling/modelingStructures/deploymentDiagrams/images/diagram.png" height="500" />
 <p/>
 
-Source: https://en.wikipedia.org/wiki/Deployment_diagram
+<sub>source:[https://commons.wikimedia.org](https://en.wikipedia.org/wiki/Deployment_diagram)</sub>
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

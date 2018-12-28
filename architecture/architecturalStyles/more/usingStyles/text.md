@@ -1,14 +1,24 @@
-<div id="path">Architecture :arrow_right: Architectural Styles :arrow_right:</div>
-
 <div id="title">
 
-#### Using Styles :two:
+#### Using Styles
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain how architectural styles are combined</span>
+
 <div id="body">
 
-Most applications use a mix of these architectural styles or adopt a style that is customized to the requirements. For example, an application can use a client-server architecture where the server component comprises several layers, i.e. it uses the multi-layer architecture.  
+**Most applications use a mix of these architectural styles.**  
+
+<tip-box> 
+
+{{ icon_example }} An application can use a client-server architecture where the server component comprises several layers, i.e. it uses the n-Tier architecture.
+
+<!-- TODO: add diagram -->
+
+</tip-box>
 
 </div>
 

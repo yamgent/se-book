@@ -1,34 +1,37 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"><panel src="../../revisionControl/remoteRepositories/unit-inElsewhere-asFlat.md" boilerplate header="{{ icon_prereq }} %%Project Management → Revision Control → Remote Respositories%%" /></span>
 
-<div class="website-content">
-
-<div id="path">Git and Github :arrow_right: </div>
+<span id="outcomes">{{ icon_outcome }} Can clone a remote repo</span>
 
 <div id="title">
 
-#### Clone :one:
+#### Clone
 
 </div>
 
 <div id="body">
 
-<dynamic-panel src="../../revisionControl/remoteRepositories/embed.md" header="Revision Control: Remote Repositories" is-open></dynamic-panel>
-<p/>
+Clone the sample repo [samplerepo-things](https://github.com/se-edu/samplerepo-things) to your computer.
 
-Clone the sample repo =={give repo}== to your computer.
+<tip-box type="error"> 
+
+Note that the URL of the Github project is different form the URL you need to clone a repo in that Github project.
+e.g.
+
+Github project URL: `https://github.com/se-edu/samplerepo-things` <br>
+Git repo URL: `https://github.com/se-edu/samplerepo-things.git` (note the `.git` at the end)
+
+</tip-box>
 
 <tabs>
   <tab header="SourceTree">
     <include src="./sourcetree.md" />
-  </tab>
+  <hr></tab>
   <tab header="CLI">
     <include src="./cli.md" />
-  </tab>
+  <hr></tab>
 </tabs>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

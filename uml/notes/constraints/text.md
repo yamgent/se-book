@@ -1,25 +1,28 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Notes :arrow_right: </div>
-
 <div id="title">
 
-#### Constraints :three:
+#### Constraints
 
 </div>
 
+<span id="prereqs"><panel src="../notes/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} UML → Notes%%" /></span>
+
+<span id="outcomes">{{ icon_outcome }} Can specify constraints in UML diagrams</span>
+
 <div id="body">
 
-A note can be used to specify a _constraint_  **within curly brackets**. Natural language or a formal notation such as OCL (Object Constraint Language) may be used to specify constraints. OCL is beyond the scope of this handout.
+**A _constraint_  can be given inside a note, within curly braces**. Natural language or a formal notation such as _OCL (Object Constraint Language)_ may be used to specify constraints. 
+
+<tip-box> 
+
+{{ icon_example }} Example:
 
 <img src="{{baseUrl}}/uml/notes/constraints/images/playerTurn.png" height="120" />
 <p/>
 
+</tip-box>
+
+
 </div>
 
 <div id="extras">
-<div>
-
 </div>

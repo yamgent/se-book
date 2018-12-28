@@ -1,24 +1,24 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Structures :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can use basic object diagrams</span>
 
 <div id="title">
 
-#### Object Diagrams :three:
+#### Object Diagrams
 
 </div>
 
 <div id="body">
 
-Object diagrams model object structures that exist at a given moment of time.
+<panel type="seamless" src="../../../../book/uml/objectDiagrams/introduction/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML → Object Diagrams → Introduction" alt="{{ icon_prereq }} Object Diagrams"/>
 
-<dynamic-panel src="../../../uml/objectDiagrams/objectStructures/embed.md" header="UML: Object Diagrams: Object Structures" is-open></dynamic-panel>
+**Object diagrams can be used to complement class diagrams.** For example, you can use object diagrams to model different object structures that can result from a design represented by a given class diagram.
+
+<panel type="seamless" src="../../../../book/uml/objectDiagrams/objects/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML → Object Diagrams → Objects" alt="{{ icon_prereq }} OD/Objects"/>
+<panel type="seamless" src="../../../../book/uml/objectDiagrams/associations/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML → Object Diagrams → Associations" alt="{{ icon_prereq }} OD/Associations"/>
 
 </div>
 
 <div id="extras">
-<div>
-
+  <include src="exercisesPanel.md" boilerplate />
 </div>

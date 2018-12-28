@@ -1,27 +1,29 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
-
 <div id="title">
 
-#### Interaction Overview Diagrams :four:
+#### Interaction Overview Diagrams
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain interaction overview diagrams</span>
+
 <div id="body">
 
-**Interaction overview** diagrams are a combination of activity diagrams and sequence diagrams.
+**An _Interaction overview_ diagrams is a combination of activity diagrams and sequence diagrams**.
+
+<tip-box> 
+
+{{ icon_example }} An example:
 
 <img src="{{baseUrl}}/modeling/modelingBehaviors/interactionOverviewDiagrams/images/diagram.png" height="420" />
 <p/>
 
-Source: https://en.wikipedia.org/wiki/Interaction_overview_diagram
+<sub>source:[https://commons.wikimedia.org](https://en.wikipedia.org/wiki/Interaction_overview_diagram)</sub>
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

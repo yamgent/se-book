@@ -1,22 +1,19 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">SLDC Process Models :arrow_right: Summary :arrow_right:</div>
-
 <div id="title">
 
-#### Recap :three:
+#### Recap
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain process models at a higher level</span>
 
 <div id="body">
-<div>
 
-<div id="extras">
-
-<include src="exercises.md" />
+This section has some exercise that cover multiple topics related to SDLC process models.
 
 </div>
 
+<div id="extras">
+ <include src="exercises.md" />
 </div>

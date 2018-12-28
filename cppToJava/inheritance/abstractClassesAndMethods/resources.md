@@ -1,0 +1,1 @@
+* [Oracle’s Java Tutorials: Abstract Methods and Classes]({{ java_tutorial }}/java/IandI/abstract.html)

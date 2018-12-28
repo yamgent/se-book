@@ -1,24 +1,19 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Revision Control :arrow_right: </div>
-
 <div id="title">
 
-#### Centralized Flow :two:
+#### Centralized Flow
 
 </div>
 
+<span id="prereqs"><panel src="../featureBranchFlow/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} Revision Control → Feature Branch Workflow%%" /></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain centralized flow</span>
+
 <div id="body">
 
-This is similar to the feature branch workflow except all changes are done in the master branch.
-
-More info: https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
+**The _centralized workflow_ is similar to the feature branch workflow except all changes are done in the `master` branch.**
 
 </div>
 
 <div id="extras">
-<div>
-
+  <include src="resources.md" />
 </div>

@@ -1,4 +1,4 @@
-<panel header="Q: Agile processes, Pair programming, Test-driven development :four:">
+<panel header="{{ icon_Q_A }} Agile processes, Pair programming, Test-driven development">
 <question has-input="true">
 
 Find out more about the following three topics and give at least three arguments for and three arguments against each.
@@ -14,8 +14,8 @@ Find out more about the following three topics and give at least three arguments
 (a) Arguments in favor of agile processes:
 
 * More focus on customer satisfaction.
-*	Less chance of building the wrong product (because of frequent customer feedback).
-*	Less resource wasted on bureaucracy, over-documenting, contract negotiations.
+* Less chance of building the wrong product (because of frequent customer feedback).
+* Less resource wasted on bureaucracy, over-documenting, contract negotiations.
 
 Arguments against agile processes (not necessarily true):
 

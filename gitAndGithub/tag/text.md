@@ -1,32 +1,27 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"><panel src="../../revisionControl/savingHistory/unit-inElsewhere-asFlat.md" boilerplate header="{{ icon_prereq }} %%Project Management → Revision Control → Saving History%%" /></span>
 
-<div class="website-content">
-
-<div id="path">Git and Github :arrow_right: </div>
+<span id="outcomes">{{ icon_outcome }} Can tag commits using Git</span>
 
 <div id="title">
 
-#### Tag :three:
+#### Tag
 
 </div>
 
 <div id="body">
 
-<dynamic-panel src="../../revisionControl/savingHistory/embed.md" header="Revision Control: Saving History" is-open></dynamic-panel>
-<p/>
+Let's tag a commit in a local repo you have (e.g. the `sampelrepo-things` repo)
 
 <tabs>
   <tab header="SourceTree">
     <include src="./sourcetree.md" />
-  </tab>
+  <hr></tab>
   <tab header="CLI">
     <include src="./cli.md" />
-  </tab>
+  <hr></tab>
 </tabs>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

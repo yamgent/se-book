@@ -1,30 +1,28 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Specifying Requirements :arrow_right: Prose :arrow_right:</div>
-
 <div id="title">
 
-#### What :one:
+#### What
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain prose</span>
+
 <div id="body">
 
-A textual description (**prose**) can be used to give a _quick overview of the domain/system_ that is understandable to both the users and the development team.
+**A textual description (i.e. _prose_) can be used to describe requirements.** Prose is especially useful when describing abstract ideas such as the vision of a product.
 
-This is the most straight forward way of describing requirements, and is especially useful when _describing the vision of a product_.
+<tip-box> 
 
-<tip-box type="warning">
+{{ icon_example }} The product vision of the [TEAMMATES Project](https://github.com/TEAMMATES/teammates) given below is described using prose.
 
-Avoid lengthy textual descriptions, as they can be hard to follow.
+>TEAMMATES aims to become **the biggest student project in the world** (_biggest_ here refers to 'many contributors, many users, large code base, evolving over a long period'). Furthermore, it aims to serve as a training tool for Software Engineering students who want to learn SE skills in the context of **a non-trivial real software product**.
 
 </tip-box>
+
+{{ icon_important_big_red }} Avoid using lengthy prose to describe requirements; they can be hard to follow.
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

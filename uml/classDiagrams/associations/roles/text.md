@@ -1,41 +1,97 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### Roles :two:
+#### Roles
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain/use association roles in class diagrams</span>
+
 <div id="body">
 
-‘Role’ labels are optionally used to indicate the role played by the classes in the association.
+**_Association Role_ labels are used to indicate the role played by the classes in the association.**
+
+<img src="{{baseUrl}}/uml/classDiagrams/associations/roles/images/notation.png" height="60" />
 
 <tip-box>
 
-Example:
+{{ icon_example }} This association represents a marriage between a `Man` object and a `Woman` object. The respective roles played by objects of these two classes are `husband` and `wife`. 
 
-<img src="{{baseUrl}}/uml/classDiagrams/associations/roles/images/husbandWife.png" height="70" />
+<img src="{{baseUrl}}/uml/classDiagrams/associations/roles/images/husbandWife.png" width="300" />
 <p/>
 
-This association represents a marriage between a Man object and a Woman object. The respective roles played by objects of these two classes are husband and wife.
+Note how the variable names match closely with the association roles.
+
+<table> 
+<tr>
+  <td valign="top">
+
+Java {{ icon_output }}
+```java
+class Man{
+    Woman wife;
+}
+
+class Woman{
+    Man husband;
+}
+```
+  </td>
+  <td>&nbsp;&nbsp;<br><br></td>
+  <td valign="top">
+
+Python {{ icon_output }}
+```python
+class Man:
+  def __init__(self):
+    self.wife = None # a Woman object
+
+class Woman:
+   def __init__(self):
+     self.husband = None # a Man object
+```
+  </td>
+</tr>
+</table>
 
 </tip-box>
 
 <tip-box>
 
-Example:
+{{ icon_example }} The role of `Student` objects in this association is `charges` %%(i.e. Admin is in charge of students)%%
 
 <img src="{{baseUrl}}/uml/classDiagrams/associations/roles/images/adminStudent.png" height="70" />
 <p/>
 
+<table> 
+<tr>
+  <td valign="top">
+
+Java {{ icon_output }}
+```java
+class Admin{
+    List<Student> charges;
+}
+```
+  </td>
+  <td>&nbsp;&nbsp;<br><br></td>
+  <td valign="top">
+
+Python {{ icon_output }}
+```python
+class Admin:
+  def __init__(self):
+    self.charges = [] # list of Student objects
+```
+  </td>
+</tr>
+</table>
+
 </tip-box>
 
-<img src="{{baseUrl}}/uml/classDiagrams/associations/roles/images/association.png" height="120" />
-<p/>
 
 </div>
 
 <div id="extras">
-</div>
-
 </div>

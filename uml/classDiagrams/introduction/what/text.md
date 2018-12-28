@@ -1,20 +1,26 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### What :one:
+#### What
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain/identify class diagrams</span>
+
 <div id="body">
 
-UML _class diagrams_ describe the structure (but not the behavior) of an OOP solution. These are possibly the most often used diagrams in the industry and an indispensable tool for an OO programmer.
+**UML _class diagrams_ describe the structure (but not the behavior) of an OOP solution.** These are possibly the most often used diagrams in the industry and an indispensable tool for an OO programmer.
 
-{Give some example class diagrams here}
+<tip-box> 
+
+{{ icon_example }} An example class diagram:
+
+<img src="{{baseUrl}}/uml/classDiagrams/introduction/what/images/classDiagramExample1.png" width="600" />
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-</div>
-
 </div>

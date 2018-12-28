@@ -1,27 +1,42 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Integration :arrow_right: Approaches :arrow_right:</div>
-
 <div id="title">
 
-#### 'Late and One Time' vs 'Early and Frequent' :two:
+#### 'Late and One Time' vs 'Early and Frequent'
 
 </div>
 
+<span id="prereqs"><panel src="../../introduction/what/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} Implementation → Integration → Introduction → What%%" /></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain how integration approaches vary based on timing and frequency</span>
+
 <div id="body">
 
-In terms of timing and frequency, there are two general approaches to integration:
+**In terms of timing and frequency, there are two general approaches to integration: _late and one-time_, _early and frequent_.**
 
-1. _Late and one-time_: In an extreme case of this approach, developers wait till all components are completed and integrate all finished components just before the release. This approach is not recommended because integration often causes many component incompatibilities (due to previous miscommunications and misunderstandings) to surface which can lead to delivery delays: Late integration -> incompatibilities found -> major rework required -> cannot meet the delivery date.
-2. _Early and frequent_: The other approach is to integrate early and evolve in parallel in small steps, re-integrating frequently. For example, a working skeleton  can be written first (i.e. it compiles and runs but does not produce any useful output). This can be done by one developer, possibly the one in charge of integration. After that, all developers can flesh out the skeleton in parallel, adding one feature at a time. After each feature is done, simply integrate the new code to the main system.
+**_Late and one-time_: wait till all components are completed and integrate all finished components near the end of the project.** 
 
-Whether using frequent integration or one-time late integration, there is still a need to decide the order in which components are to be integrated. There are several approaches to doing this, as explained next.
+<tip-box type="wrong">
+ 
+  This approach is not recommended because integration often causes many component incompatibilities (due to previous miscommunications and misunderstandings) to surface which can lead to delivery delays %%&nbsp;i.e. Late integration → incompatibilities found → major rework required → cannot meet the delivery date%%.
+
+</tip-box>
+
+**_Early and frequent_: integrate early and evolve each part in parallel, in small steps, re-integrating frequently.** 
+
+<tip-box> 
+
+{{ icon_example }} A _<tooltip content="it compiles and runs but does not produce any useful output">walking skeleton</tooltip>_ can be written first. This can be done by one developer, possibly the one in charge of integration. After that, all developers can flesh out the skeleton in parallel, adding one feature at a time. After each feature is done, simply integrate the new code to the main system.
+
+</tip-box>
+
+<div v-closeable alt="slideshow: comparison" class="non-printable">
+
+Here is an animation that compares the two approaches: 
+
+@[powerpoint](https://onedrive.live.com/embed?cid=A5AF047C4CAD67AB&resid=A5AF047C4CAD67AB%212312&authkey=AHtrsZMwQmNcyAE&em=2)
+
+</div>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

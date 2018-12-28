@@ -1,25 +1,27 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
-
 <div id="title">
 
-#### Sequence Diagrams - Basic :one:
+#### Sequence Diagrams - Basic
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can draw basic sequence diagrams</span>
+
 <div id="body">
 
-<dynamic-panel src="../../../uml/sequenceDiagrams/basic/embed.md" header="UML: Sequence Diagrams: Basic" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/objectCreation/embed.md" header="UML: Sequence Diagrams: Object Creation" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/loops/embed.md" header="UML: Sequence Diagrams: Loops" is-open></dynamic-panel>
-<dynamic-panel src="../../../uml/sequenceDiagrams/minimalNotation/embed.md" header="UML: Sequence Diagrams: Minimal Notation" is-open></dynamic-panel>
+<panel type="seamless" src="../../../uml/sequenceDiagrams/introduction/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Introduction" alt="{{ icon_prereq }} UML/SequenceDiagrams" />
+
+<panel type="seamless" src="../../../uml/sequenceDiagrams/basic/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Basic Notation" alt="{{ icon_prereq }} UML/SD/Basic" />
+
+<panel type="seamless" src="../../../uml/sequenceDiagrams/loops/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Loops" alt="{{ icon_prereq }} UML/SD/Loops" />
+<panel type="seamless" src="../../../uml/sequenceDiagrams/objectCreation/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Object Creation" alt="{{ icon_prereq }} UML/SD/Creation" />
+
+<panel type="seamless" src="../../../uml/sequenceDiagrams/minimalNotation/unit-inElsewhere-asFlat.md#main" boilerplate header="{{ icon_prereq }} UML {{ icon_embedding }} Sequence Diagrams → Minimal Notation" alt="{{ icon_prereq }} UML/SD/Minimal" />
+
 
 </div>
 
 <div id="extras">
-<div>
-
+  <include src="exercisesPanel.md" boilerplate />
 </div>

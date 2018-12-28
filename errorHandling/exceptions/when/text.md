@@ -1,22 +1,18 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Error Handling :arrow_right: Exceptions :arrow_right:</div>
-
 <div id="title">
 
-#### When :three:
+#### When
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can avoid using exceptions to control normal workflow</span>
+
 <div id="body">
 
-{to add: do not use exceptions for normal workflow}
+In general, use exceptions only for 'unusual' conditions. Use normal `return` statements to pass control to the caller for conditions that are 'normal'.
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

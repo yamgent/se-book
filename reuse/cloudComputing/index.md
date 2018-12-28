@@ -1,16 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Reuse: Cloud Computing"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Reuse :arrow_right:**%%
-
-## Cloud Computing
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="services/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

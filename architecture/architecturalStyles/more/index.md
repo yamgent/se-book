@@ -1,15 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Architectural Styles: More"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Software Architecture :arrow_right: Architectural Styles :arrow_right:**%%
-
-### More
-
-<div id="main">
-
-<include src="./moreStyles/embed.md" />
-<include src="./usingStyles/embed.md" />
-
-</div>
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

@@ -1,29 +1,24 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"><panel src="../../revisionControl/usingHistory/unit-inElsewhere-asFlat.md" boilerplate header="{{ icon_prereq }} %%Project Management → Revision Control → Using History%%" /></span>
 
-<div class="website-content">
-
-<div id="path">Git and Github :arrow_right: </div>
+<span id="outcomes">{{ icon_outcome }} Can load a specific version of a Git repo</span>
 
 <div id="title">
 
-#### Checkout :two:
+#### Checkout
 
 </div>
 
 <div id="body">
-
-<dynamic-panel src="../../revisionControl/usingHistory/embed.md" header="Revision Control: Using History" is-open></dynamic-panel>
-<p/>
 
 Git can show you what changed in each commit.
 
 <tabs>
   <tab header="SourceTree">
     <include src="./sourcetree_1.md" />
-  </tab>
+  <hr></tab>
   <tab header="CLI">
     <include src="./cli_1.md" />
-  </tab>
+  <hr></tab>
 </tabs>
 
 Git can also show you the difference between two points in the history of the repo.
@@ -31,27 +26,29 @@ Git can also show you the difference between two points in the history of the re
 <tabs>
   <tab header="SourceTree">
     <include src="./sourcetree_2.md" />
-  </tab>
+  <hr></tab>
   <tab header="CLI">
     <include src="./cli_2.md" />
-  </tab>
+  <hr></tab>
 </tabs>
 
-Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to stash them first to prevent them from being overwritten.
+Git can load a specific version of the history to the working directory. Note that if you have uncommitted changes in the working directory, you need to <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.
+
+<modal large title="%%Extract%%" id="modal:checkout-stash">
+  <include src="../stash/unit-inElsewhere-asFlat.md" boilerplate />
+</modal>
 
 <tabs>
   <tab header="SourceTree">
     <include src="./sourcetree_3.md" />
-  </tab>
+  <hr></tab>
   <tab header="CLI">
     <include src="./cli_3.md" />
-  </tab>
+  <hr></tab>
 </tabs>
 
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

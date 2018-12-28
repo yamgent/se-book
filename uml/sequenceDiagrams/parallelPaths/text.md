@@ -1,18 +1,16 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Sequence Diagrams :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can interpret sequence diagrams with parallel paths</span>
 
 <div id="title">
 
-#### Parallel Paths :three:
+#### Parallel Paths
 
 </div>
 
 <div id="body">
 
-We use `par` frames to indicate parallel paths.
+**UML uses `par` frames to indicate parallel paths.**
 
 Notation:
 
@@ -21,18 +19,20 @@ Notation:
 
 <tip-box>
 
-Example:
+{{ icon_example }} `Logic` is calling methods `CloudServer#poll()` and `LocalServer#poll()` in parallel.
 
 <img src="{{baseUrl}}/uml/sequenceDiagrams/parallelPaths/images/logicServerData.png" height="150" />
 <p/>
 
-In this example Logic is polling both CloudServer and LocalServer objects in parallel.
+<tip-box> 
+
+:bulb: If you show parallel paths in a sequence diagram, the corresponding Java implementation is likely to be _multi-threaded_ %%&nbsp; because a normal Java program cannot do multiple things at the same time%%.
+
+</tip-box>
 
 </tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

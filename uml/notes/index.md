@@ -1,16 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "UML: Notes"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**UML :arrow_right:**%%
-
-## Notes
-
-<div id="main">
-
-<include src="notes/embed.md" />
-<include src="constraints/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

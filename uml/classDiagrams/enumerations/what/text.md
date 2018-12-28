@@ -1,20 +1,24 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### What :two:
+#### What
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret enumerations in class diagrams</span>
+
 <div id="body">
 
-An `<< enumeration >>` is used to indicate that an attribute can only take on a fixed set of values.
+Notation:
+
+<img src="{{baseUrl}}/uml/classDiagrams/enumerations/what/images/notation.png" width="150" />
 
 <tip-box>
 
-Example:
+{{ icon_example }} In the class diagram below, there are two enumerations in use:
 
-<img src="{{baseUrl}}/uml/classDiagrams/enumerations/what/images/playerTurn.png" height="150" />
+<img src="{{baseUrl}}/uml/classDiagrams/enumerations/what/images/playerTurn.png" width="600" />
 <p/>
 
 </tip-box>
@@ -22,6 +26,5 @@ Example:
 </div>
 
 <div id="extras">
-</div>
-
+  <include src="exercisesPanel.md" boilerplate />
 </div>

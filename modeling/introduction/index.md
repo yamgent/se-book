@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Modeling: Introduction"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Modeling :arrow_right:**%%
-
-## Introduction
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="how/embed.md" />
-<include src="umlModels/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

@@ -1,27 +1,27 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Structures :arrow_right:</div>
-
 <div id="title">
 
-#### Component Diagrams :four:
+#### Component Diagrams
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain component diagrams</span>
 
 <div id="body">
 
-A UML **component diagram** is used to show how a system is divided into components and how they are connected to each other through interfaces.
+**A _component diagram_ is used to show how a system is divided into components and how they are connected to each other through interfaces.**
 
-<img src="{{baseUrl}}/modeling/modelingStructures/componentDiagrams/images/diagram.png" height="500" />
-<p/>
+<tip-box> 
 
-Source: https://en.wikipedia.org/wiki/Component_diagram
+{{ icon_example }} An example component diagram:
 
+<img src="{{baseUrl}}/modeling/modelingStructures/componentDiagrams/images/diagram.png" height="500" /><br>
+
+<sub>source:[https://commons.wikimedia.org](https://en.wikipedia.org/wiki/Component_diagram)</sub>
+
+</tip-box>
 </div>
 
 <div id="extras">
-<div>
-
 </div>

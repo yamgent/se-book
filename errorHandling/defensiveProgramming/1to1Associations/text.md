@@ -1,22 +1,17 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Error Handling :arrow_right: Defensive Programming :arrow_right:</div>
-
 <div id="title">
 
-#### Enforcing 1-to-1 Associations :three:
+#### Enforcing 1-to-1 Associations
 
 </div>
 
+<span id="prereqs"><panel src="../what/unit-inElsewhere-asFlat.md" boilerplate header="%%{{ icon_prereq }} Implementation → Error Handling → Defensive Programming → What%%" /></span>
+
+<span id="outcomes">{{ icon_outcome }} Can use defensive coding to enforce 1-to-1 associations</span>
+
 <div id="body">
 
-Consider the association given below. Here, a MinedCell cannot exist without a Mine and vice versa. The only way to enforce this is by simultaneous object creation. However, in Java and C++, only one object can be created at a time. Given below are two alternatives. Both options violate the multiplicity for a short period of time.
+Consider the association given below. A defensive implementation requires to ensure a `MinedCell` cannot exist without a `Mine` and vice versa which requires simultaneous object creation. However, Java can only create one object at a time. Given below are two alternatives implementations, both of which violate the multiplicity for a short period of time.
 
-<tip-box>
-
-Example:
 
 <img src="{{baseUrl}}/errorHandling/defensiveProgramming/1to1Associations/images/minedCell.png" height="50" />
 <p/>
@@ -27,7 +22,9 @@ class MinedCell {
     private Mine mine;
 
     public MinedCell(Mine m){
-        if (m == null) error;
+        if (m == null) {
+            showError();
+        }
         mine = m;
     }
     …
@@ -50,11 +47,7 @@ class MinedCell {
 
 Option 2 is more defensive because the `Mine` is immediately linked to a `MinedCell`.
 
-</tip-box>
-
 </div>
 
 <div id="extras">
-<div>
-
 </div>

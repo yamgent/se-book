@@ -1,30 +1,11 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Code Quality :arrow_right: Guideline: Comment Minimally, but Sufficiently :arrow_right:</div>
-
 <div id="title">
 
-#### Basic :one:
-
+### Basic
 </div>
 
 <div id="body">
 
-<panel header="**Do Not Repeat the Obvious**"
-    type="seamless" alt="indentation">
-  <include src="../../practices/dontRepeatObvious/index.md#main" />
-</panel>
-
-<panel header="**Write to the Reader**"
-    type="seamless" alt="indentation">
-  <include src="../../practices/writeToReader/index.md#main" />
-</panel>
-
-</div>
-
-<div id="extras">
-<div>
+<include src="dontRepeatObvious/unit-inParent-asPanel.md" boilerplate />
+<include src="writeToReader/unit-inParent-asPanel.md" boilerplate />
 
 </div>

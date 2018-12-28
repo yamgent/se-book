@@ -1,24 +1,26 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can explain use case diagrams</span>
 
 <div id="title">
 
-#### Use Case Diagrams :two:
+#### Use Case Diagrams
 
 </div>
 
 <div id="body">
 
-Use case diagrams model the mapping between features of a system and its user roles
+**Use case diagrams model the mapping between features of a system and its user roles.**
 
-More…
+<tip-box> 
+
+{{ icon_example }} A simple use case diagram:
+
+<img src="{{baseUrl}}/specifyingRequirements/useCases/introduction/images/ticketMachine.png" height="250" />
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Integration: Approaches"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Integration :arrow_right:**%%
-
-## Approaches
-
-<div id="main">
-
-<include src="lateVsEarly/embed.md" />
-<include src="bigBangVsIncremental/embed.md" />
-<include src="topDownVsBottomUp/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

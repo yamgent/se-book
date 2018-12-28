@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Specifying Requirements: User Stories"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Specifying Requirements :arrow_right:**%%
-
-## User Stories
-
-<div id="main">
-
-<include src="introduction/embed.md" />
-<include src="details/embed.md" />
-<include src="usage/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

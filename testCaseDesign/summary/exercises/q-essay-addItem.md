@@ -1,4 +1,4 @@
-<panel header="Q: add(Item) :three:">
+<panel header="{{ icon_Q_A }} add(Item)">
 <question has-input="true">
 
 Assume you are testing the add(Item) method specified below.

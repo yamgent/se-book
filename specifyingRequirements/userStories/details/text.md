@@ -1,12 +1,10 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Specifying Requirements :arrow_right: User Stories :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can write more detailed user stories</span>
 
 <div id="title">
 
-#### Details :two:
+#### Details
 
 </div>
 
@@ -20,13 +18,9 @@ As a user, I can login to the system ~~so that I can access my data~~
 
 </tip-box>
 
-<tip-box type="warning">
+:bulb: It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, you could end up adding features that have no real benefit.
 
-It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, we could end up adding features that have no real benefit.
-
-</tip-box>
-
-We can add more characteristics to the `{user role}` to provide more context to the user story.
+You can add more characteristics to the `{user role}` to provide more context to the user story.
 
 <tip-box>
 
@@ -35,7 +29,7 @@ We can add more characteristics to the `{user role}` to provide more context to 
 
 </tip-box>
 
-**We can write user stories at various levels**. High-level user stories, called _**epics**_ (or _themes_) cover bigger functionality. We can then break down these epics to multiple user stories of normal size.
+**You can write user stories at various levels**. High-level user stories, called ==_epics_== (or _themes_) cover bigger functionality. You can then break down these epics to multiple user stories of normal size.
 
 <tip-box>
 
@@ -49,15 +43,17 @@ We can add more characteristics to the `{user role}` to provide more context to 
 
 </tip-box>
 
-**We can add _conditions of satisfaction_ to a user story** to specify things that need to be true for the user story implementation to be accepted as ‘done’.
+**You can add _conditions of satisfaction_ to a user story** to specify things that need to be true for the user story implementation to be accepted as ‘done’.
 
 <tip-box>
 
-* As a lecturer, I can view the forum post count of each student so that I can identify the activity level of students in the forum.<br/>
-  Conditions:<br/>
-  [ ] Separate post count for each forum should be shown<br/>
-  [ ] Total post count of a student should be shown<br/>
-  [ ] The list should be sortable by student name and post count
+* _As a_ lecturer, _I can_ view the forum post count of each student _so that_ I can identify the activity level of students in the forum.
+  
+Conditions:
+
+- [ ] Separate post count for each forum should be shown
+- [ ] Total post count of a student should be shown
+- [ ] The list should be sortable by student name and post count
 
 </tip-box>
 
@@ -67,7 +63,8 @@ We can add more characteristics to the `{user role}` to provide more context to 
 * Size: the estimated effort to implement the user story
 * Urgency: how soon the feature is needed
 
-<panel header="%%More examples :zero:%%" type="seamless">
+<panel minimized >
+<span slot="header" class="card-title">{{ icon_example }} More examples {{ icon_tangential }}</md></span>
 
 User stories for a travel website (credit: Mike Cohen)
 
@@ -92,6 +89,7 @@ User stories for a travel website (credit: Mike Cohen)
 </div>
 
 <div id="extras">
-<div>
+
+<include src="exercises.md" />
 
 </div>

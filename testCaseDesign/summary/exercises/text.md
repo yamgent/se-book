@@ -1,22 +1,16 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Test Case Design :arrow_right: Summary :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can combine test case design techniques</span>
 
 <div id="title">
 
-#### Exercises :three:
+#### Exercises
 
 </div>
 
 <div id="body">
-<div>
-
-<div id="extras">
-
-<include src="exercises.md" />
-
 </div>
 
+<div id="extras">
+  <include src="exercises.md" />
 </div>

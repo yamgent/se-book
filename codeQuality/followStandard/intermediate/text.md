@@ -1,22 +1,21 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Code Quality :arrow_right: Guideline: Follow a Standard :arrow_right:</div>
-
 <div id="title">
 
-#### Intermediate :two:
+#### Intermediate
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can follow intermediate style rules</span>
+
 <div id="body">
 
-{Some intermediate style rules for Java}
+Go through the [provided Java coding standard]({{java_coding_standard}}) and learn the _intermediate_ style rules.
 
 </div>
 
 <div id="extras">
-<div>
+
+<include src="exercisesPanel.md" boilerplate />
 
 </div>

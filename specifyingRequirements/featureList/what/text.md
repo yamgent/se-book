@@ -1,35 +1,34 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Specifying Requirements :arrow_right: Feature List :arrow_right:</div>
-
 <div id="title">
 
-#### What :one:
+#### What
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain feature list</span>
+
 <div id="body">
 
-<tip-box type="primary">
+<tip-box type="definition">
 <include src="../../../common/definitions.md#def-feature-list" />
 </tip-box>
 
-Here is a sample feature list from Minesweeper (only a brief description has been provided to save space):
-
 <tip-box>
 
+{{ icon_example }} A sample feature list from a simple Minesweeper game %%&nbsp;(only a brief description has been provided to save space)%%:
+
 1. Basic play – Single player play.
-2. Difficulty levels – Additional Medium and Advanced levels.
+2. Difficulty levels
+   * Medium-levels
+   * Advanced levels
 3. Versus play – Two players can play against each other.
 4. Timer – Additional fixed time restriction on the player.
+5. ...
 
 </tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

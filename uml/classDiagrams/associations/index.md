@@ -1,18 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "UML: Class Diagrams: Associations"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**UML :arrow_right: Class Diagrams :arrow_right:**%%
-
-### Associations
-
-<div id="main">
-
-<include src="./basic/embed.md" />
-<include src="./navigability/embed.md" />
-<include src="./roles/embed.md" />
-<include src="./labels/embed.md" />
-<include src="./multiplicity/embed.md" />
-
-</div>
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

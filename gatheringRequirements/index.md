@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Gathering Requirements"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-# Gathering Requirements
-
-<div id="main">
-
-<include src="brainstorming/embed.md" />
-<include src="userSurveys/embed.md" />
-<include src="observation/embed.md" />
-<include src="interviews/embed.md" />
-<include src="focusGroups/embed.md" />
-<include src="prototyping/embed.md" />
-<include src="productSurveys/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

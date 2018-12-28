@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "UML: Activity Diagrams: Basic Notation"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**UML :arrow_right: Activity Diagrams :arrow_right:**%%
-
-### Basic Notations
-
-<div id="main">
-
-<include src="./linearPaths/embed.md" />
-<include src="./alternatePaths/embed.md" />
-<include src="./parallelPaths/embed.md" />
-<include src="./rakes/embed.md" />
-<include src="./swimlanes/embed.md" />
-<include src="./combined/embed.md" />
-
-</div>
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

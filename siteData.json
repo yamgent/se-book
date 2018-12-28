@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "headings": {
+        "software-engineering-for-self-directed-learners": "Software Engineering for Self-Directed Learners",
+        "about-this-book": "About this Book",
+        "software-engineering": "Software Engineering",
+        "object-oriented-programming": "Object-Oriented Programming",
+        "requirements": "Requirements",
+        "design": "Design",
+        "implementation": "Implementation",
+        "quality-assurance": "Quality Assurance",
+        "project-management": "Project Management",
+        "tools": "Tools",
+        "principles": "Principles",
+        "supplementary": "Supplementary"
+      },
+      "title": "Book - Software Engineering for Self-Directed Learners",
+      "footer": "footer.md",
+      "src": "index.md",
+      "layout": "default"
+    }
+  ]
+}

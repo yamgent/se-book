@@ -1,1 +1,1 @@
-Quality Assurance :arrow_right: Testing :arrow_right:
+Quality Assurance → Testing →

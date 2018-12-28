@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Code Quality: [Guideline] Avoid Unsafe Shortcuts"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Code Quality :arrow_right:**%%
-
-## Guideline: Avoid Unsafe Shortcuts
-
-<div id="main">
-
-<include src="introduction/embed.md" />
-<include src="basic/embed.md" />
-<include src="intermediate/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

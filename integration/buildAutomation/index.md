@@ -1,16 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Integration: Build Automation"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Integration :arrow_right:**%%
-
-## Build Automation
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="continuousIntegrationDeployment/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

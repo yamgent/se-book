@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Java"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-# Java
-
-<div id="main">
-
-<include src="collections/embed.md" />
-<include src="enums/embed.md" />
-<include src="varargs/embed.md" />
-<include src="javaFXBasic/embed.md" />
-<include src="streamsBasic/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

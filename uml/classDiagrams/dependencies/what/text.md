@@ -1,21 +1,29 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### What :three:
+#### Dependencies
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can use dependencies in a class diagram</span>
+
 <div id="body">
 
-We use a dashed arrow to show dependencies.
+**UML uses a dashed arrow to show dependencies.**
 
-<img src="{{baseUrl}}/uml/classDiagrams/dependencies/what/images/notation.png" height="120" />
+<img src="{{baseUrl}}/uml/classDiagrams/dependencies/what/images/notation.png" width="350" />
+
+<tip-box> 
+
+{{ icon_example }} Two examples of dependencies:
+
+<img src="{{baseUrl}}/uml/classDiagrams/dependencies/what/images/examples.png" width="450" />
 <p/>
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-</div>
-
 </div>

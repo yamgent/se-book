@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "SDLC Process Models: Exaxmple Process Models"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**SLDC Process Models :arrow_right:**%%
-
-## Example Process Models
-
-<div id="main">
-
-<include src="xp/embed.md" />
-<include src="scrum/embed.md" />
-<include src="unifiedProcess/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

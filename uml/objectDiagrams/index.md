@@ -1,17 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "UML: Object Diagrams"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**UML :arrow_right:**%%
-
-## Object Diagrams
-
-<div id="main">
-
-<include src="introduction/embed.md" />
-<include src="objects/embed.md" />
-<include src="objectStructures/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

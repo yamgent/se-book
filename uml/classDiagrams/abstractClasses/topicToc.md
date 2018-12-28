@@ -1,6 +1,6 @@
-* __ [Abstract Classes](./uml/classDiagrams/abstractClasses) :one: <trigger for="pop:classDiagrams-abstractClasses-preview">:mag:</trigger>
+* __ [Abstract Classes]({{baseUrl}}/uml/classDiagrams/abstractClasses) <trigger for="pop:classDiagrams-abstractClasses-preview">{{icon_preview}}</trigger>
 
-<popover id="pop:classDiagrams-abstractClasses-preview" title=":mag: Abstract Classes" placement="right">
+<popover id="pop:classDiagrams-abstractClasses-preview" title="{{icon_preview}} Abstract Classes" placement="right">
   <div slot="content">
     <include src=".\preview.md" />
   </div>

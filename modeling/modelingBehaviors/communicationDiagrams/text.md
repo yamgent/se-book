@@ -1,32 +1,29 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Modeling :arrow_right: Modeling Behaviors :arrow_right:</div>
-
 <div id="title">
 
-#### Communication Diagrams :four:
+#### Communication Diagrams
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain communication diagrams</span>
+
 <div id="body">
 
-**Communication diagrams** are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.
+**A _Communication diagrams_ are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.**
+
+<tip-box> 
+
+{{ icon_example }} An example:
 
 <img src="{{baseUrl}}/modeling/modelingBehaviors/communicationDiagrams/images/diagram.png" height="300" />
-<p/>
+<br>
 
-Adapted from:
-<popover id="pop:uml-distilled">
-  <div slot="content">
-    <include src="../../../common/references.md#uml-distilled" />
-  </div>
-</popover>
+<sub>Adapted from: _UML Distilled_ by Martin Fowler</sub>
+
+</tip-box>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

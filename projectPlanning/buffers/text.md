@@ -1,25 +1,20 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Project Planning :arrow_right: </div>
-
 <div id="title">
 
-#### Buffers :two:
+#### Buffers
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain buffers</span>
+
 <div id="body">
 
-It is important to include buffers (i.e. time set aside to absorb any unforeseen delays) in the schedule. However, do not inflate tasks to create hidden buffers. Have them explicitly set aside.
+**A _buffer_ is a time set aside to absorb any unforeseen delays.** It is very important to include buffers in a software project schedule because effort/time estimations for software development is notoriously hard. However, **do not inflate task estimates to create hidden buffers**; have explicit buffers instead. %%&nbsp;Reason: With explicit buffers it is easier to detect incorrect effort estimates which can serve as a feedback to improve future effort estimates.%%
 
 <img src="{{baseUrl}}/projectPlanning/buffers/images/schedule.png" height="120" />
-<p/>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

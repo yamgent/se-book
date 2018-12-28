@@ -1,18 +1,20 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### What :two:
+#### Interfaces
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret interfaces in class diagrams</span>
+
 <div id="body">
 
-We use the keyword `<< interface >>` to indicate an interface. Interface inheritance is shown similar to class inheritance except a dashed line is used instead of a solid line.
+**An interface is shown similar to a class with an additional keyword `<< interface >>`. When a class implements an interface, it is shown similar to class inheritance except a dashed line is used instead of a solid line.** 
 
 <tip-box>
 
-Example:
+{{ icon_example }} The `AcademicStaff` and the `AdminStaff` classes _implement_ the `SalariedStaff` interface.
 
 <img src="{{baseUrl}}/uml/classDiagrams/interfaces/what/images/staff.png" height="250" />
 <p/>
@@ -22,6 +24,4 @@ Example:
 </div>
 
 <div id="extras">
-</div>
-
 </div>

@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Code Quality: [Guideline] Maximise Readability: Basic"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-<include src="full.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

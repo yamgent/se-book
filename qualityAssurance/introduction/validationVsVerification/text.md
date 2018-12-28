@@ -1,14 +1,12 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Quality Assurance :arrow_right: Introduction :arrow_right:</div>
-
 <div id="title">
 
-#### Validation vs Verification :two:
+#### Validation vs Verification
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain validation and verification</span>
 
 <div id="body">
 
@@ -16,14 +14,15 @@
 
 QA involves checking two aspects:
 
-1. Building the right system, i.e. are the requirements correct? This is called _validation_.
-2. Building the system right, i.e. are the requirements implemented correctly? This is called _verification_.
+1. Validation: are we _building the right system_ i.e., are the requirements correct? 
+2. Verification: are we _building the system right_ i.e., are the requirements implemented correctly?
 
 Whether something belongs under validation or verification is not that important. What is more important is both are done, instead of limiting to verification (i.e., remember that the requirements can be wrong too).
 
 </div>
 
 <div id="extras">
-<div>
+
+<include src="exercises.md" />
 
 </div>

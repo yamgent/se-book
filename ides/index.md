@@ -1,19 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "IDEs"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-# IDEs
-
-## Introduction
-<panel header="================================================================"
-    type="seamless" alt="introduction">
-  <include src="introduction/index.md#main" />
-</panel>
-
-## Debugging
-<panel header="================================================================"
-    type="seamless" alt="debugging">
-  <include src="debugging/index.md#main" />
-</panel>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

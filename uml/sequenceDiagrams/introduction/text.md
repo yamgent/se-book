@@ -1,27 +1,44 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Sequence Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### Introduction :one:
+#### Introduction
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain/identify sequence diagrams</span>
+
 <div id="body">
 
-A UML sequence diagram _captures the interactions between multiple objects for a given scenario._
+**A UML sequence diagram _captures the interactions between multiple objects for a given scenario._**
 
 <tip-box>
 
-Examples:
+{{ icon_example }} Consider the code below.
 
-<img src="{{baseUrl}}/uml/sequenceDiagrams/introduction/images/textLogic.png" height="300" />
-<p/>
+```java
+class Machine {
 
-<img src="{{baseUrl}}/uml/sequenceDiagrams/introduction/images/logicMinefield.png" height="300" />
+    Unit producePrototype() {
+        Unit prototype = new Unit();
+        for (int i = 0; i < 5; i++) {
+            prototype.stressTest();
+        }
+        return prototype;
+    }
+}
+
+class Unit {
+
+    public void stressTest() {
+
+    }
+}
+
+```
+Here is the sequence diagram to model the interactions for the method call `producePrototype()` on a `Machine` object.
+
+<img src="{{baseUrl}}/uml/sequenceDiagrams/introduction/images/Machine.png" width="450" />
 <p/>
 
 </tip-box>
@@ -29,6 +46,4 @@ Examples:
 </div>
 
 <div id="extras">
-<div>
-
 </div>

@@ -1,18 +1,16 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Principles :arrow_right: </div>
-
 <div id="title">
 
-#### YAGNI Principle :four:
+#### YAGNI Principle
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain YAGNI principle</span>
+
 <div id="body">
 
-<tip-box type="primary">
+<tip-box type="definition">
 
 <include src="../../common/definitions.md#def-yagni-principle" />
 
@@ -25,7 +23,5 @@ The principle says that some capability we presume our software needs in the fut
 <div id="extras">
 
 <include src="resources.md" />
-
-</div>
 
 </div>

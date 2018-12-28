@@ -1,16 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Reuse: Frameworks"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Reuse :arrow_right:**%%
-
-## Frameworks
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="frameworksVsLibraries/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

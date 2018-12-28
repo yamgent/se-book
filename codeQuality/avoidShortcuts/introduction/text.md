@@ -1,14 +1,12 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Code Quality :arrow_right: Guideline: Avoid Unsafe Shortcuts :arrow_right:</div>
-
 <div id="title">
 
-#### Introduction :one:
+#### Introduction
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain the need for avoiding error-prone shortcuts</span>
 
 <div id="body">
 
@@ -17,6 +15,4 @@ It is safer to use language constructs in the way they are meant to be used, eve
 </div>
 
 <div id="extras">
-<div>
-
 </div>

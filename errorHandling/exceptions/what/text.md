@@ -1,20 +1,18 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Error Handling :arrow_right: Exceptions :arrow_right:</div>
-
 <div id="title">
 
-#### What :one:
+#### What
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain exceptions</span>
+
 <div id="body">
 
-Exceptions are used to deal with ‘unusual’ but not entirely unexpected situations that the program might encounter at run time.
+**Exceptions are used to deal with _'unusual' but not entirely unexpected_ situations** that the program might encounter at run time. 
 
-<tip-box type="primary">
+<tip-box type="definition">
 
 <include src="../../../common/definitions.md#def-exception" />
 
@@ -22,18 +20,15 @@ Exceptions are used to deal with ‘unusual’ but not entirely unexpected situa
 
 <tip-box>
 
-Examples:
+{{ icon_example }} Examples:
 
-*	A network connection encounters a timeout due to a slow server.
-*	The code tries to read a file from the hard disk but the file is corrupted and cannot be read.
+* A network connection encounters a timeout due to a slow server.
+* The code tries to read a file from the hard disk but the file is corrupted and cannot be read.
 
 </tip-box>
 
-Exceptions are not program bugs. Rather, they are unusual situations that need to be recovered from, if possible.
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

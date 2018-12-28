@@ -1,16 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Requirements"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-# Requirements
-
-<div id="main">
-
-<include src="introduction/embed.md" />
-<include src="nonFunctionalRequirements/embed.md" />
-<include src="prioritizing/embed.md" />
-<include src="quality/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

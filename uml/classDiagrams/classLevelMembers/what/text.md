@@ -1,18 +1,20 @@
-<div id="path">UML :arrow_right: Class Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### What :two:
+#### Class-Level Members
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret class-level members in class diagrams</span>
+
 <div id="body">
 
-In UML class diagrams, underlines are used to denote class-level attributes and variables.
+In UML class diagrams, **underlines denote class-level attributes and variables.**
 
 <tip-box>
 
-Example:
+{{ icon_example }} In the class below, `totalStudents` attribute and the `getTotalStudents` method are class-level.
 
 <img src="{{baseUrl}}/uml/classDiagrams/classLevelMembers/what/images/student.png" height="120" />
 <p/>
@@ -22,6 +24,4 @@ Example:
 </div>
 
 <div id="extras">
-</div>
-
 </div>

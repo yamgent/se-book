@@ -1,14 +1,12 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Sequence Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### Loops :two:
+#### Loops
 
 </div>
+
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret sequence diagrams with loops</span>
 
 <div id="body">
 
@@ -19,7 +17,7 @@ Notation:
 
 <tip-box>
 
-Example:
+{{ icon_example }} The `Player` calls the `mark x,y` command or `clear x y` command repeatedly until the game is won or lost.
 
 <img src="{{baseUrl}}/uml/sequenceDiagrams/loops/images/playerText.png" height="300" />
 <p/>
@@ -29,6 +27,4 @@ Example:
 </div>
 
 <div id="extras">
-<div>
-
 </div>

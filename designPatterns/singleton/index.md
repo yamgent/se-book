@@ -1,18 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Software Design Patterns: Singleton"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Software Design Patterns :arrow_right:**%%
-
-## Singleton Pattern
-
-<div id="main">
-
-<include src="what/embed.md" />
-<include src="implementation/embed.md" />
-<include src="application/embed.md" />
-<include src="evaluation/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

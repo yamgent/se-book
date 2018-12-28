@@ -1,19 +1,22 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">UML :arrow_right: Sequence Diagrams :arrow_right:</div>
-
 <div id="title">
 
-#### Object Deletion :two:
+#### Object Deletion
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can interpret sequence diagrams with object deletion</span>
+
 <div id="body">
 
-In languages such as Java that supports automatic memory management, although object deletion is not that important,
-the above notation can still be used to show the point at which the object ceased to be used.
+**UML uses an `X` at the end of the lifeline of an object to show it's deletion.**
+
+<tip-box> 
+
+:bulb: Although object deletion is not that important in languages such as Java that support automatic memory management, you can still show object deletion in UML diagrams to indicate the point at which the object ceases to be used.
+
+</tip-box>
 
 Notation:
 
@@ -22,7 +25,7 @@ Notation:
 
 <tip-box>
 
-Example:
+{{ icon_example }} Note how the diagrams shows the deletion of the `Minefield` object
 
 <img src="{{baseUrl}}/uml/sequenceDiagrams/objectDeletion/images/logicMinefield.png" height="120" />
 <p/>
@@ -32,6 +35,4 @@ Example:
 </div>
 
 <div id="extras">
-<div>
-
 </div>

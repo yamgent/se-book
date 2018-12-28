@@ -1,23 +1,8 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<frontmatter>
+title: "Modeling: Modeling Structures"
+footer: footer.md
+</frontmatter>
 
-<div class="website-content">
+<include src="navbar.md" boilerplate />
 
-%%**Modeling :arrow_right:**%%
-
-## Modeling Structures
-
-<div id="main">
-
-<include src="classDiagramsBasic/embed.md" />
-<include src="classDiagramsIntermediate/embed.md" />
-<include src="classDiagramsAdvanced/embed.md" />
-<include src="objectDiagrams/embed.md" />
-<include src="objectOrientedDomainModels/embed.md" />
-<include src="deploymentDiagrams/embed.md" />
-<include src="componentDiagrams/embed.md" />
-<include src="packageDiagrams/embed.md" />
-<include src="compositeStructureDiagrams/embed.md" />
-
-</div>
-
-</div>
+<include src="container-inPage-asFlat.md" boilerplate />

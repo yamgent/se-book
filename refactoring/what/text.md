@@ -1,27 +1,33 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Refactoring :arrow_right: </div>
+<span id="outcomes">{{ icon_outcome }} Can explain refactoring</span>
 
 <div id="title">
 
-#### What :one:
+#### What
 
 </div>
 
 <div id="body">
 
-The first version of the code you write may not be of production quality. It is acceptable to first concentrate on making the code work, rather than worry over the quality of the code, SO LONG AS you improve the quality later. This process of **improving a program's internal structure without modifying its external behavior** is called _refactoring_.
+The first version of the code you write may not be of production quality. It is OK to first concentrate on making the code work, rather than worry over the quality of the code, as long as you improve the quality later. This process of **improving a program's internal structure in small steps without modifying its external behavior is called _refactoring_.**
 
-*	Refactoring is not about discarding poorly-written code and re-writing it from scratch. It is the process of improving the code in very small steps until it achieves production quality.
-*	By definition, refactoring is different from bug fixing or any other modifications that alter the external behavior of the component in concern.
+* **Refactoring is not rewriting**: Discarding poorly-written code entirely and re-writing it from scratch is not refactoring because refactoring needs to be done in small steps.
+* **Refactoring is not bug fixing**: By definition, refactoring is different from bug fixing or any other modifications that alter the external behavior (e.g. adding a feature) of the component in concern.
 
-Given below are two common refactorings (taken from
-  <popover effect="fade" placement="top">
-    refactoring-catalog <span slot="content"><include src="../../common/references.md#refactoring-catalog" inline/></span>
-  </popover>
-).
+<tip-box>
+
+:bulb: Improving code structure can have many secondary benefits: e.g.
+ * hidden bugs become easier to spot
+ * improve performance (sometimes, simpler code runs faster than complex code because simpler code is easier for the compiler to optimize). 
+
+</tip-box>
+
+Given below are two common refactorings (<trigger trigger="click" for="modal:refactoring-catalog-what">more</trigger>).
+
+<modal title="**Refactoring Catalogs**" id="modal:refactoring-catalog-what">
+  <include src="../../common/references.md#refactoring-catalog"/>
+</modal>
 
 <tip-box>
 
@@ -31,28 +37,18 @@ Situation:  The same fragment of code is in all branches of a conditional expres
 
 Method: Move it outside of the expression.
 
-Example:
+{{ icon_example }} Example:
 
-```java
-//before
-if (isSpecialDeal()) {
-    total = price * 0.95;
-    send();
-} else {
-    total = price * 0.98;
-    send();
-}
-```
+<div class="alt-java">
 
-```java
-//after
-if (isSpecialDeal()){
-    total = price * 0.95;
-} else {
-    total = price * 0.98;
-}
-send();
-```
+<include src="example-consolidate-java.md" />
+
+  </div>
+<div class="alt-python">
+
+<include src="example-consolidate-python.md" />
+
+</div>
 
 </tip-box>
 
@@ -64,37 +60,28 @@ Situation:  You have a code fragment that can be grouped together.
 
 Method: Turn the fragment into a method whose name explains the purpose of the method.
 
-Example:  
+{{ icon_example }} Example:
 
-```java
-//before
-void printOwing() {
-    printBanner();
-
-//print details
-    System.out.println("name:	" + name);
-    System.out.println("amount	" + getOutstanding());
-}
-```
-
-```java
-//after
-void printOwing() {
-    printBanner();
-    printDetails(getOutstanding());
-}
-
-void printDetails (double outstanding) {
-    System.out.println("name:	" + name);
-    System.out.println("amount	" + outstanding);
-}
-```
+<div class="alt-java">
+  <include src="example-extract-java.md" />
+</div>
+<div class="alt-python">
+  <include src="example-extract-python.md" />
+</div>
 
 </tip-box>
+
+
+:bulb: Some IDEs have built in support for basic refactorings such as automatically renaming a variable/method/class in all places it has been used.
+
+
+{{ icon_important_big_red }} Refactoring, even if done with the aid of an IDE, may still result in regressions. Therefore, each small refactoring should be followed by regression testing.
+
 
 </div>
 
 <div id="extras">
-<div>
+
+<include src="exercises.md" />
 
 </div>

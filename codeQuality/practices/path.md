@@ -1,1 +1,0 @@
-Coding Best Practices :arrow_right:

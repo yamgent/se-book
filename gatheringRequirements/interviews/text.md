@@ -1,22 +1,24 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
-
-<div class="website-content">
-
-<div id="path">Gathering Requirements :arrow_right: </div>
-
 <div id="title">
 
-#### Interviews :one:
+#### Interviews
 
 </div>
 
+<span id="prereqs"></span>
+
+<span id="outcomes">{{ icon_outcome }} Can explain interviews</span>
+
 <div id="body">
 
-Interviewing potential stakeholders and domain experts can give us useful information about a domain. Interview is a good technique at getting users to explore what users feel about the required system. Interviews also provide opportunities for the development team members to meet stakeholders and to make stakeholders feel involved in the development process.
+**Interviewing stakeholders and <trigger for="pop:interviews-domainExpert">domain experts</trigger> can produce useful information that project requirements.**
+
+<popover id="pop:interviews-domainExpert" title="" placement="top">
+  <div slot="content">
+    <include src="../../common/definitions.md#def-domain-expert" />
+  </div>
+</popover>
 
 </div>
 
 <div id="extras">
-<div>
-
 </div>

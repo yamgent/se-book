@@ -1,42 +1,40 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Testing :arrow_right: Test Automation :arrow_right:</div>
+<span id="outcomes">{{ icon_outcome }} Can explain test automation tools</span>
 
 <div id="title">
 
-#### Test Automation Tools :two:
+#### Test Automation Tools
 
 </div>
 
 <div id="body">
 
-JUnit is a tool for automated testing of Java programs. Similar tools are available for other languages.
+**JUnit is a tool for automated testing of Java programs.** Similar tools are available for other languages and for automating different types of testing.
 
-Below is the code of an automated test for Payroll class, written using JUnit libraries.
+<tip-box> 
+
+{{ icon_example }} This an automated test for a `Payroll` class, written using JUnit libraries.
 
 ```java
-public class PayrollTestJUnit {
+@Test
+public void testTotalSalary(){
+    Payroll p = new Payroll();
 
-    @Test
-    public void testTotalSalary(){
-        Payroll p = new Payroll();
+    //test case 1
+    p.setEmployees(new String[]{"E001", "E002"});
+    assertEquals(6400, p.totalSalary());
 
-        //test case 1
-        p.setEmployees(new String[]{"E001", "E002"});
-        assertEquals(p.totalSalary(), 6400);
+    //test case 2
+    p.setEmployees(new String[]{"E001"});
+    assertEquals(2300, p.totalSalary());
 
-        //test case 2
-        p.setEmployees(new String[]{"E001"});
-        assertEquals(p.totalSalary(), 2300);
-
-        //more tests...
-    }
+    //more tests...
 }
 ```
+</tip-box>
 
-Most modern IDEs come packaged with integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.
+Most modern IDEs has integrated support for testing tools. The figure below shows the JUnit output when running some JUnit tests using the Eclipse IDE.
 
 <img src="{{baseUrl}}/testing/testAutomation/tools/images/junit.png" height="190" />
 <p/>
@@ -44,6 +42,4 @@ Most modern IDEs come packaged with integrated support for testing tools. The fi
 </div>
 
 <div id="extras">
-<div>
-
 </div>

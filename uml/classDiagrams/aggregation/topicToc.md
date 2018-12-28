@@ -1,6 +1,6 @@
-* __ [Aggregation](./uml/classDiagrams/aggregation) :one: <trigger for="pop:classDiagrams-aggregation-preview">:mag:</trigger>
+* __ [Aggregation]({{baseUrl}}/uml/classDiagrams/aggregation) <trigger for="pop:classDiagrams-aggregation-preview">{{icon_preview}}</trigger>
 
-<popover id="pop:classDiagrams-aggregation-preview" title=":mag: Aggregation" placement="right">
+<popover id="pop:classDiagrams-aggregation-preview" title="{{icon_preview}} Aggregation" placement="right">
   <div slot="content">
     <include src=".\preview.md" />
   </div>

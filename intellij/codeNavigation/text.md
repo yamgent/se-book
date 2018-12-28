@@ -1,12 +1,10 @@
-<link rel="stylesheet" href="{{baseUrl}}/css/textbook.css">
+<span id="prereqs"></span>
 
-<div class="website-content">
-
-<div id="path">Intellij IDEA :arrow_right: </div>
+<span id="outcomes">{{ icon_outcome }} Can navigate code effectively using IDE features</span>
 
 <div id="title">
 
-#### Code Navigation :two:
+#### Code Navigation
 
 </div>
 
@@ -20,13 +18,13 @@ Some useful navigation shortcuts:
 1. View the documentation of a method from where the method is being used, without navigating to the method itself.
 1. Find where a method/field is being used.
 
-<panel header="Intellij IDEA Code Navigation (Basics) :star::star:" alt="basics" expanded>
+<panel header="Intellij IDEA Code Navigation (Basics)" alt="basics" expanded>
 
 @[youtube](f885wy42IcM)
 
 </panel>
 
-<panel header="Intellij IDEA Code Navigation (Advanced) :star::star::star:" alt="basics" >
+<panel header="Intellij IDEA Code Navigation (Advanced)" alt="basics" >
 
 @[youtube](IiHZPvmVICg)
 
@@ -35,6 +33,4 @@ Some useful navigation shortcuts:
 </div>
 
 <div id="extras">
-</div>
-
 </div>
